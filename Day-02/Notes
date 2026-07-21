@@ -1,1 +1,49 @@
 
+🌐 1. Understanding HTTP Requests
+HTTP (HyperText Transfer Protocol) is used for communication between a client (browser) and a server.
+Every website visit starts with an HTTP request.
+Common request methods:
+- GET → Retrieve data.
+- POST → Send data.
+- PUT → Update data.
+- DELETE → Remove data.
+- The server processes the request and returns an HTTP response with a status code (200, 404, 500, etc.).
+
+Key Point: HTTP defines what data is requested and how it is exchanged.
+
+
+🌍 2. DNS and Name Resolution
+- DNS (Domain Name System) translates human-readable domain names into IP addresses.
+- Browsers cannot understand domain names directly—they need IP addresses.
+- DNS lookup happens before connecting to the server.
+- DNS works like the Internet's phonebook.
+
+Key Point: Without DNS, users would have to remember IP addresses instead of website names.
+
+
+🔗 3. Establishing TCP Connections
+- TCP (Transmission Control Protocol) creates a reliable connection between client and server.
+- Before sending data, TCP performs the Three-Way Handshake:
+  1. SYN (Client → Server)
+  2. SYN-ACK (Server → Client)
+  3. ACK (Client → Server)
+- Ensures reliable, ordered, and error-free communication.
+
+Key Point: TCP guarantees that data reaches the destination correctly.
+
+
+📦 4. Encapsulating Data into IP Packets
+- After TCP prepares the data, it is divided into small pieces called packets.
+- Each packet contains:
+   - Source IP Address
+   - Destination IP Address
+   - Payload (actual data)
+- Routers forward these packets across the internet.
+- At the destination, packets are reassembled into the original message.
+
+
+🖥️ 5. Role of MAC Addresses and ARP
+- Every network device has a unique MAC (Media Access Control) Address.
+- IP addresses identify devices across networks.
+- MAC addresses identify devices within the same local network (LAN).
+- ARP (Address Resolution Protocol) maps an IP address to its corresponding MAC address.
