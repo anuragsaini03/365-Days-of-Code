@@ -1,1 +1,13 @@
+Structure of an IP Address (Short)
 
+An IP (Internet Protocol) address is a unique numerical identifier assigned to every device connected to a network. It helps identify and locate devices for communication.
+
+IP Structure:
+- Length: 32 bits (4 bytes)
+- Format: Four decimal numbers (octets) separated by dots.
+- Example: 192.168.1.10
+- Each octet ranges from 0 to 255.
+
+
+Network ID: Identifies the network.
+Host ID: Identifies the specific device on that network.
