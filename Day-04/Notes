@@ -1,1 +1,38 @@
 Day- 04
+
+🌐 1. Network
+A network is a group of connected devices that communicate with each other.
+- Every network has a Network ID, which identifies the network itself.
+- Devices inside the same network can communicate directly.
+- Example: In 192.168.1.0/24, the network is 192.168.1.0.
+
+Key Point:
+➡️ Network = Identifies the entire group of devices.
+
+
+💻 2. Host
+A host is any device connected to a network (computer, phone, server, router, etc.).
+* Each host has a unique Host ID within the network.
+* Hosts use IP addresses to send and receive data.
+
+Example:
+Network: 192.168.1.0/24
+
+- 192.168.1.10 → Host
+- 192.168.1.25 → Host
+- 192.168.1.100 → Host
+
+Key Point:
+➡️ Host = An individual device on the network.
+
+
+3. CIDR (Classless Inter-Domain Routing)
+CIDR is a modern way of writing IP addresses using a slash ( / ) followed by a number.
+- The number tells how many bits belong to the network portion.
+- It replaces the old Class A, B, and C addressing system.
+
+Examples:
+
+- 192.168.1.0/24 → 24 bits for Network, 8 bits for Hosts
+- 10.0.0.0/8 → 8 bits for Network, 24 bits for Hosts
+- 172.16.0.0/16 → 16 bits for Network, 16 bits for Hosts
