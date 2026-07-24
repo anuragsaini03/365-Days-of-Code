@@ -1,1 +1,24 @@
+Day-05 | Command of Git
+
+
+# 1. Create a Git repository
+git init
+
+# 2. Check project status
+git status
+
+# 3. Add files to staging
+git add .
+
+# 4. Save the changes
+git commit -m "Initial project"
+
+# 5. View commit history
+git log
+
+# 6. Undo changes in a file (if needed)
+git restore --staged filename
+
+
+also some shortcut of Git
 
