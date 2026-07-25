@@ -1,1 +1,38 @@
+Day-06
 
+
+1. Single User Setup
+What is Single User Setup?
+
+A Single User Setup is a Git configuration where only one developer works on a repository. It is commonly used for personal projects or while learning Git.
+
+Features:
+- Only one person manages the repository.
+- No merge conflicts caused by multiple contributors.
+- Easy to configure and maintain.
+- Best for personal learning and small projects.
+
+
+First Time Configuration Command:
+1. git config --global user.name "Your Name"
+2. git config --global user.email "your@email.com"
+
+
+2. Ignoring Files
+What is Ignoring Files?
+
+Sometimes you don't want Git to track certain files such as temporary files, logs, build folders, or secret credentials. Git uses a .gitignore file for this purpose.
+
+Why Ignore Files?
+- Prevent unnecessary files from being committed.
+- Protect sensitive information.
+- Keep the repository clean.
+- Reduce repository size.
+
+
+3. Tracking Empty Directories
+* Does Git Track Empty Folders?
+       - No. Git only tracks files, not empty directories.
+
+* How to Track an Empty Directory?
+       - Create an empty placeholder file named .gitkeep inside the folder.
