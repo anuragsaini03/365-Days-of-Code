@@ -1,1 +1,48 @@
+Day- 08
+
+
+1. What is a Merge Conflict?
+A Merge Conflict occurs when Git cannot automatically combine changes from two branches because the same part of a file has been modified differently.
+
+* Common Causes
+- Two developers edit the same line.
+- One branch deletes a file while another modifies it.
+- Conflicting changes during `git merge` or `git rebase`.
+
+2. How to Resolve a Merge Conflict
+  1. Merge the branches.
+  2. Open the conflicted file.
+  3. Find the conflict markers.
+  4. Edit the file and keep the required changes.
+  5. Remove the conflict markers.
+  6. Stage the resolved file.
+  7. Commit the changes.
+
+
+
+3. What is Git Stash?
+
+Git Stash temporarily saves your uncommitted changes so you can switch branches or work on something else without committing incomplete code.
+
+4. Why Use Git Stash?
+- Switch branches without losing work.
+- Save unfinished changes temporarily.
+- Keep the working directory clean.
+
+
+
+5. What are Git Tags?
+
+A Git Tag is a permanent label attached to a specific commit. Tags are mainly used to mark software releases such as v1.0, v2.0, etc.
+
+
+
+6. What is Git Rebase?
+
+Git Rebase moves or reapplies commits from one branch onto another branch, resulting in a clean and linear Git history.
+
+7. Why Use Rebase?
+- Keep commit history clean.
+- Update feature branches with the latest main branch.
+- Reduce unnecessary merge commits.
 
