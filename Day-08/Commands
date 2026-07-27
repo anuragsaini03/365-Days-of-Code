@@ -1,1 +1,57 @@
 
+
+1. Merge Conflict
+
+| Command                   | Description                                                |
+| ------------------------- | ---------------------------------------------------------- |
+| `git merge <branch-name>` | Merge another branch into the current branch.              |
+| `git status`              | Show the status of files and identify conflicts.           |
+| `git add <file>`          | Mark the resolved file as staged.                          |
+| `git add .`               | Stage all resolved files.                                  |
+| `git commit`              | Complete the merge after resolving conflicts.              |
+| `git merge --abort`       | Cancel the merge process and return to the previous state. |
+
+
+2. Git Stash
+
+| Command                          | Description                                        |
+| -------------------------------- | -------------------------------------------------- |
+| `git stash`                      | Save current uncommitted changes.                  |
+| `git stash save "message"`       | Save changes with a custom message (older syntax). |
+| `git stash list`                 | Display all saved stashes.                         |
+| `git stash show`                 | Show summary of the latest stash.                  |
+| `git stash show -p`              | Show detailed changes in the stash.                |
+| `git stash apply`                | Apply the latest stash without deleting it.        |
+| `git stash apply stash@{0}`      | Apply a specific stash.                            |
+| `git stash pop`                  | Apply and remove the latest stash.                 |
+| `git stash drop stash@{0}`       | Delete a specific stash.                           |
+| `git stash clear`                | Remove all stashes.                                |
+| `git stash branch <branch-name>` | Create a new branch from a stash.                  |
+
+
+3. Git Tags
+
+| Command                               | Description                                |
+| ------------------------------------- | ------------------------------------------ |
+| `git tag`                             | List all tags.                             |
+| `git tag <tag-name>`                  | Create a lightweight tag.                  |
+| `git tag -a <tag-name> -m "message"`  | Create an annotated tag.                   |
+| `git show <tag-name>`                 | Display information about a tag.           |
+| `git tag -d <tag-name>`               | Delete a local tag.                        |
+| `git push origin <tag-name>`          | Push a specific tag to GitHub.             |
+| `git push origin --tags`              | Push all tags to GitHub.                   |
+| `git push origin --delete <tag-name>` | Delete a remote tag.                       |
+| `git checkout <tag-name>`             | Switch to a tagged commit (detached HEAD). |
+
+
+4. Git Rebase
+
+| Command                 | Description                                        |
+| ----------------------- | -------------------------------------------------- |
+| `git rebase <branch>`   | Reapply commits on top of another branch.          |
+| `git rebase --continue` | Continue rebase after resolving conflicts.         |
+| `git rebase --abort`    | Cancel the rebase operation.                       |
+| `git rebase --skip`     | Skip the current conflicting commit.               |
+| `git rebase -i HEAD~n`  | Interactive rebase for editing commit history.     |
+| `git pull --rebase`     | Pull remote changes using rebase instead of merge. |
+
