@@ -55,7 +55,9 @@ Maintain coding consistency for 365 days
 If you're also learning Full Stack Development or AI, feel free to connect and follow my journey!
 
 💼 LinkedIn: https://www.linkedin.com/in/anuragsaini03/
+
 🐦 X (Twitter): https://x.com/AnuragSaini03
+
 🌐 Portfolio: Coming Soon
 
 
