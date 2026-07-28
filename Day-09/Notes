@@ -1,1 +1,47 @@
+Day-09
+
+
+___Using GitHub to Host Our Repositories___
+1. What is GitHub?
+
+GitHub is a cloud-based platform that stores Git repositories online. It helps developers back up code, collaborate with others, track changes, and showcase projects.
+
+2. Why Use GitHub?
+- Stores repositories securely in the cloud.
+- Makes collaboration easy through Pull Requests.
+- Keeps project history using Git.
+- Access your code from anywhere.
+- Great for building your developer portfolio.
+
+# Steps to Host a Repository on GitHub
+- Create a GitHub account.
+- Click New Repository.
+- Enter a repository name and description.
+- Choose Public or Private.
+- Create the repository.
+- Connect your local Git repository.
+- Push your code to GitHub.
+
+
+___Intro to GitHub Desktop___
+1. What is GitHub Desktop?
+
+GitHub Desktop is a graphical application that allows you to use Git and GitHub without remembering terminal commands.
+
+* Features
+- Clone repositories
+- Commit changes
+- Push & Pull updates
+- Create branches
+- Merge branches
+- Resolve merge conflicts visually
+- View commit history
+* Basic Workflow
+- Clone or create a repository.
+- Edit files.
+- View changed files.
+- Write a commit message.
+- Click Commit.
+- Click Push Origin.
+
 
