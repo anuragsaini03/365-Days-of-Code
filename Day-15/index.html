@@ -6,20 +6,49 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- this is a simple form -->
 <form>
     <label>Name:</label>
-    <input type="text">
+    <input type="text" name = "username">
+    <br><br>
+    <label>Father's Name:</label>
+    <input type="text" name = "father_name">
     <br><br>
     <label>Age:</label>
-    <input type="number">
+    <input type="number" name = "age">
+    <br><br>
+    <label>Gender:</label>
+    <br>
+    <input type="radio" name = "gender" id="male" value="male">
+    <label for = "male" >Male</label>
+    <input type="radio" name = "gender" id = "female" value="female">
+    <label for = "female" >Female</label>
+    <input type="radio" name = "gender" id = "other" value="other">
+    <label for = "other" >Other</label>
     <br><br>
     <label>Password:</label>
-    <input type="password">
+    <input type="password" name = "password">
+    <br><br>
+    <label>Skills:</label>
+    <br>
+    <input type="checkbox" name = "skills" id = "html" value="html">
+    <label for = "html" >HTML</label>
+    <input type="checkbox" name = "skills" id = "css" value="css">
+    <label for = "css" >CSS</label>
+    <input type="checkbox" name = "skills" id = "js" value="js">
+    <label for = "js" >JavaScript</label>
+    <input type="checkbox" name = "skills" id = "react" value="react">
+    <label for = "react" >React</label>
+    <input type="checkbox" name = "skills" id = "java" value="java">
+    <label for = "java" >Java</label>
+    <input type="checkbox" name = "skills" id = "py" value="python">
+    <label for = "py" >Python</label>
+
     <br><br>
     <input type="submit" value="Submit">
 
 </form>
+
 
 </body>
 </html>
