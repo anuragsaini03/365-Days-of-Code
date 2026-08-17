@@ -1,0 +1,24 @@
+span{
+    background-color: red;
+    color: white;
+
+}
+
+p{
+    background-color: yellow;
+    height: 120px;
+    width: 470px;
+    padding: 10px;
+    margin: 30px;
+
+}
+
+h1{
+    background-color: orange;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    
+
+}
