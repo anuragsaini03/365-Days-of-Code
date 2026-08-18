@@ -1,0 +1,64 @@
+.container1{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+
+}
+
+h3 {
+    color: white;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.container2 {
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+    
+}
+
+.box {
+    background-color: blue;
+    position: absolute;
+}
+
+#box1 {
+    height: 85px;
+    width: 85px;
+
+}
+
+#box2 {
+    height: 85px;
+    width: 180px;
+    top: 0px;
+    right: 0px;
+
+}
+
+#box3 {
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+#box4 {
+    height: 85px;
+    width: 180px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
